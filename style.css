@@ -1,12 +1,12 @@
-/* ===== ไฟล์ของคนที่ 2 (นักออกแบบ) ===== */
+/* ===== ไฟล์ของคนที่ 2 (bt) ===== */
 /* ภารกิจ: ตกแต่งให้ครบอย่างน้อย 3 จุดที่มีคำว่า "งาน" */
 
 body {
   font-family: sans-serif;
   margin: 24px;
   /* งาน 1: เปลี่ยนสีพื้นหลังและสีตัวอักษรของหน้าเว็บ */
-  background-color: white;
-  color: black;
+  background-color: #98FF98;
+  color: pink;
 }
 
 /* กล่องที่ครอบการ์ดทั้งหมด จัดเรียงเป็นแนวนอน */
@@ -20,15 +20,24 @@ body {
   /* งาน 2: ตกแต่งการ์ด เช่น border, border-radius, padding, background-color */
   border: 1px solid gray;
   padding: 8px;
+  max-width: 600px;
+  padding: 32px;
+  background-color: #FFFDD0;
+  border-radius: 16px;
 }
 
 .card-name {
+  font-family: Tahoma;
+  background-color: #f6f5f0;
+  color: #D2691E;
   /* งาน 3: ตกแต่งชื่อในการ์ด เช่น color, font-size */
 }
 
 button {
   /* งานเสริม: ตกแต่งปุ่ม */
   margin-top: 16px;
+  padding: 32px;
+  color: pink;
 }
 
 /* โหมดมืด: script.js จะเพิ่ม class "dark" ให้ body */
