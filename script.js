@@ -14,7 +14,7 @@ helloBtn.addEventListener("click", function () {
 
 // งาน 2: เมื่อกดปุ่ม "สลับโหมดมืด" ให้เพิ่มหรือลบ class "dark" ที่ body
 themeBtn.addEventListener("click", function () {
-document.body.classList.toggle("ชื่อ class");
+document.body.classList.toggle("dark");
   // คำใบ้: document.body.classList.toggle("ชื่อ class");
  
 });
