@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
   margin: 24px;
   /* งาน 1: เปลี่ยนสีพื้นหลังและสีตัวอักษรของหน้าเว็บ */
-  background-color: #98FF98;
+  background-color: #cbfae6;
   color: pink;
 }
 
@@ -28,8 +28,8 @@ body {
 
 .card-name {
   font-family: Tahoma;
-  background-color: #f6f5f0;
-  color: #D2691E;
+  background-color: #f1efde;
+  color: #46260f;
   /* งาน 3: ตกแต่งชื่อในการ์ด เช่น color, font-size */
 }
 
